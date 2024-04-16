@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Красный"
+        android:id="@+id/item_R"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tret"
+        />
+    <item android:title="Желтый"
+        android:id="@+id/item_Y"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/vtor"
+        />
+    <item android:title="Зеленый"
+        android:id="@+id/item_G"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/blm"
+        />
+</menu>
